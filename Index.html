@@ -1,0 +1,84 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> This web page describes aboutme</title>
+    </head>
+    <body>
+        <h1>Supriya Kutikanti </h1>
+    </h1>
+    <h2>
+        Cricket
+    </h2>
+    <p>Sunrisers hyderabad won first IPL in 2013<b>eventually finishing in fourth place</b>The sunrisers won their maiden IPL title in the 2016 season
+    </p>
+    <hr>
+    <h3>Sunrisers Hyderabad</h3>
+        <ol>
+            <li>Bhuvneshwar Kumar</li>
+            <li>Jagadeesha Suchith</li>
+            <li>Rahul Tripathi</li>
+            <b>other teams i like to watch in Cricket</b>
+                <ul>
+                    <li>mumbai Indians</li>
+                    <li>Chennai Superkings</li>
+                    <li>Royal Challengers Bangalore</li>
+                </ul>
+            
+        </ol>
+    </hr>
+    <a href="aboutme.html"> link to about me page</a>
+    <hr>
+    <h2>The countries i like to visit</h2>
+    <p>I suggest this four countires thoses are India France Canada Japan beacuse
+         India has over 300,000 mosques and over 2 million Hindu temples,
+         France is one of the oldest nations on Earth and the most ethnically
+         diverse country in Europe, Canada is a country filled with famous landmarks,
+         historical wonders, delicious food, incredible culture, and all the outdoor 
+         exploration you could want. Japan is known for everything from onsen hot springs 
+         and kabuki baths..</p>
+    <table>
+        <tr>
+            <th>Country</th>
+            <th>Reasons</th>
+            <th>Days</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>2 million Hindu temples</td>
+            <td style="text-align:center">10</td>
+        </tr>
+        <tr>
+            <td>france</td>
+            <td>oldest nations on Earth</td>
+            <td style="text-align:center">15</td>
+        </tr>
+        <tr>
+            <td>canada</td>
+            <td>Canada is a country filled with famous landmarks</td>
+            <td style="text-align:center">15</td>
+        </tr>
+        <tr>
+            <td>Japan</td>
+            <td>Japan is known for everything from onsen hot springs and kabuki baths</td>
+            <td style="text-align:center">18</td>
+        </tr>
+    </table>
+    <hr>
+    <h4>Display the code of sass functional programming</h4>
+    <blockquote>How do functional programming languages work?</blockquote>
+    <a href="https://stackoverflow.com/questions/2751313/how-do-functional-programming-languages-work">link to stackoverflow</a>
+    <pre>
+        @function walk($list, $function, $args...) {
+            @if not function-exists($function) {
+              @error "There is no `#{$function}` function.";
+            }
+            
+            @for $i from 1 through length($list) {
+              $list: set-nth($list, $i, call($function, nth($list, $i), $args...));
+            }
+            
+            @return $list;
+          }
+    </pre>
+</body>
+</html>
